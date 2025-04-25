@@ -1,26 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Results</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-
 </head>
 <body>
-    <h1>Uploaded Image</h1>
-    <!-- Display the user's uploaded image -->
-    <img src="{{ user_image }}" alt="Uploaded Image" style="max-width: 500px;">
+    <h2>Uploaded Image:</h2>
+    <img src="{{ user_image }}" alt="User Image" style="max-width: 500px;">
     
-    <h2>Emoji Image</h2>
-    <!-- Display an emoji image from the server -->
-    <img src="{{ emoji_image }}" alt="Emoji" style="width: 100px;">
-
-    <!-- Optional: Display text emoji -->
+    <h2>Server Emoji:</h2>
+    <img src="{{ emoji_image }}" alt="Smiling Emoji" style="width: 100px;">
+    
+    <!-- Alternative text emoji display -->
     <p>Text Emoji: 😊</p>
-
-    <!-- Link to go back to the homepage -->
-    <br><br>
-    <a href="/">Upload Another Image</a>
 </body>
 </html>
