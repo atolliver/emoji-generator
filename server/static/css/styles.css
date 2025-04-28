@@ -1,0 +1,47 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Center headings */
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+/* Style for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Input and button styling */
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 500px; /* Limit image size */
+}
